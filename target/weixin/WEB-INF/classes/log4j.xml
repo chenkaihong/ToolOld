@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd"> 
+	
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/'>
+
+	<appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yy-MM-dd HH:mm:ss,SSS} %-5p %c - %m%n" />
+		</layout>
+	</appender>
+	
+	<appender name="FILE_DEBUG" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/debug.log" />
+		<!-- Rollover at midnight each day -->
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<param name="Threshold" value="debug" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<!-- The default pattern: Date Priority [Category] Message\n -->
+			<param name="ConversionPattern" value="%d{yy-MM-dd HH:mm:ss,SSS} %-5p %c{1} - %m%n" />
+		</layout>
+	</appender>
+	
+	<appender name="FILE_INFO" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/info.log" />
+		<!-- Rollover at midnight each day -->
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<param name="Threshold" value="info" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<!-- The default pattern: Date Priority [Category] Message\n -->
+			<param name="ConversionPattern" value="%d{yy-MM-dd HH:mm:ss,SSS} %-5p %c{1} - %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="FILE_WARN" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/warn.log" />
+		<!-- Rollover at midnight each day -->
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<param name="Threshold" value="warn" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<!-- The default pattern: Date Priority [Category] Message\n -->
+			<param name="ConversionPattern" value="%d{yy-MM-dd HH:mm:ss,SSS} %-5p %c{1} - %m%n" />
+		</layout>
+	</appender>
+	
+	<appender name="FILE_ERROR" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/error.log" />
+		<!-- Rollover at midnight each day -->
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<param name="Threshold" value="error" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<!-- The default pattern: Date Priority [Category] Message\n -->
+			<param name="ConversionPattern" value="%d{yy-MM-dd HH:mm:ss,SSS} %-5p %c{1} - %m%n" />
+		</layout>
+	</appender>
+	
+	
+	<logger name="org.logicalcobwebs.proxool.gamedb">
+		<level value="INFO"></level>
+	</logger>
+	
+	<logger name="mango.condor.domain.gameobject.battle">
+		<level value="DEBUG"></level>
+	</logger>
+	
+	<logger name="mango.condor.gameserver.system.platformLogin.PlatformSystem">
+		<level value="DEBUG"></level>
+	</logger>
+	
+	<logger name="mango.condor.gameserver.system.platformLogin.PlatformSystem">
+		<level value="DEBUG"></level>
+	</logger>
+	
+	<logger name="mango.condor.gameserver.servlet.MessageServlet">
+		<level value="DEBUG"></level>
+	</logger>
+	
+	<logger name="FightHeroBase">
+		<level value="INFO"></level>
+	</logger>
+	
+	
+	
+	<root>
+		<level value="INFO"/>
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="FILE_DEBUG" />
+		<appender-ref ref="FILE_INFO" />
+		<appender-ref ref="FILE_WARN" />
+		<appender-ref ref="FILE_ERROR" />
+	</root>
+</log4j:configuration>

@@ -1,0 +1,58 @@
+15-03-16 13:00:44,367 INFO  DBManager - 加载地址池配置项...
+15-03-16 13:00:44,392 INFO  MLog - MLog clients using log4j logging.
+15-03-16 13:00:44,499 INFO  C3P0Registry - Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+15-03-16 13:00:44,544 INFO  ServerListener - 
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+虚拟机占用总内存:120320 K 
+虚拟机空闲内存:103255 K 
+当前使用内存:3816 K = 3 M 
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+
+15-03-16 13:00:44,545 INFO  ServerListener - ================startUp condor_active end=============================
+15-03-16 16:51:28,590 INFO  PoolManager - 加载地址池配置项...
+15-03-16 16:51:28,637 INFO  MLog - MLog clients using log4j logging.
+15-03-16 16:51:28,887 INFO  C3P0Registry - Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+15-03-16 16:51:28,950 INFO  ServerListener - 
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+虚拟机占用总内存:120320 K 
+虚拟机空闲内存:103285 K 
+当前使用内存:3786 K = 3 M 
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+
+15-03-16 16:51:28,950 INFO  ServerListener - ================startUp condor_active end=============================
+15-03-16 19:16:52,220 INFO  PoolManager - 加载地址池配置项...
+15-03-16 19:16:52,246 INFO  MLog - MLog clients using log4j logging.
+15-03-16 19:16:52,351 INFO  C3P0Registry - Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+15-03-16 19:16:52,414 INFO  AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2zpzdb989imbhyrpmkpt|6a340101, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2zpzdb989imbhyrpmkpt|6a340101, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://10.21.210.66:3306/condor_active, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+15-03-16 19:16:52,746 INFO  ServerListener - 
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+虚拟机占用总内存:120320 K 
+虚拟机空闲内存:93694 K 
+当前使用内存:14011 K = 13 M 
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+
+15-03-16 19:16:52,746 INFO  ServerListener - ================startUp condor_active end=============================
+15-03-16 19:17:21,184 INFO  PoolManager - 加载地址池配置项...
+15-03-16 19:17:21,215 INFO  MLog - MLog clients using log4j logging.
+15-03-16 19:17:21,326 INFO  C3P0Registry - Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+15-03-16 19:17:21,405 INFO  AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2zpzdb989imxui1l01meb|e4c6320, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2zpzdb989imxui1l01meb|e4c6320, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://10.21.210.66:3306/condor_active, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+15-03-16 19:17:21,715 INFO  ServerListener - 
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+虚拟机占用总内存:120320 K 
+虚拟机空闲内存:92563 K 
+当前使用内存:14508 K = 14 M 
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+
+15-03-16 19:17:21,715 INFO  ServerListener - ================startUp condor_active end=============================
+15-03-16 19:17:54,681 INFO  PoolManager - 加载地址池配置项...
+15-03-16 19:17:54,708 INFO  MLog - MLog clients using log4j logging.
+15-03-16 19:17:54,816 INFO  C3P0Registry - Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+15-03-16 19:17:54,890 INFO  AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2zpzdb989innovtl73zs|580754fc, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2zpzdb989innovtl73zs|580754fc, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://10.21.210.66:3306/condor_active, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+15-03-16 19:17:55,188 INFO  ServerListener - 
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+虚拟机占用总内存:120320 K 
+虚拟机空闲内存:92944 K 
+当前使用内存:14126 K = 13 M 
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+
+15-03-16 19:17:55,189 INFO  ServerListener - ================startUp condor_active end=============================

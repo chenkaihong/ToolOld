@@ -1,0 +1,74 @@
+{
+    "button": [
+	{
+            "name": "最新活动",
+            "sub_button": [
+                {
+                    "type": "click",
+                    "name": "线上活动",
+                    "key": "activity_online_news"
+                },
+                {
+                    "type": "click",
+                    "name": "线下活动",
+                    "key": "activity_downline_text"
+                }
+            ]
+        },
+        {
+            "name": "游戏资讯",
+            "sub_button": [
+                {
+                    "type": "click",
+                    "name": "关于比武",
+                    "key": "about_game_text"
+                },
+                {
+                    "type": "click",
+                    "name": "平台客服联系方式",
+                    "key": "connction_information_img"
+                },
+                {
+                    "type": "view",
+                    "name": "官方网站",
+                    "url": "http://bwzq.i9133.com/"
+                },
+		{
+                    "type": "view",
+                    "name": "比武微社区",
+                    "url": "http://m.wsq.qq.com/264476302"
+                },
+		{
+                    "type": "click",
+                    "name": "全民研发团",
+                    "key": "Player_Plan_news"
+                }
+            ]
+        },
+        {
+            "name": "玩家福利",
+            "sub_button": [
+                {
+                    "type": "click",
+                    "name": "关注礼包",
+                    "key": "get_activityCode_text"
+                },
+                {
+                    "type": "click",
+                    "name": "节日礼包",
+                    "key": "holiday_prize_text"
+                },
+                {
+                    "type": "click",
+                    "name": "VIP专属礼包",
+                    "key": "vip_prize_text"
+                },
+		{
+                    "type": "view",
+                    "name": "微信社区兑换",
+                    "url": "http://www.baidu.com"
+                }
+            ]
+        }
+    ]
+}
